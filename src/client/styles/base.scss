@@ -1,11 +1,15 @@
-$keycolor: rgb(253, 148, 192);
+$keycolor: #22799F;
+$backgroundcolor: #2c2a3e;
+$background2color: #39374B;
+$fontcolor: #fff;
 
 body {
     display: flex;
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    background: center / cover no-repeat url(../img/bgimg.jpg) fixed;
+    background-color: $backgroundcolor;
+    color: $fontcolor;
 }
 
 main {
@@ -14,7 +18,9 @@ main {
     text-align: center;
     margin: 2rem;
     font: 300 1rem "Roboto", sans-serif;
-    background: rgba(238, 234, 234, 0.7);
+    background-color: $background2color;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
 }
 
 p {
